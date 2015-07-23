@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<style>
+
+		html, body { height: 100%; padding: 0; margin: 0; }
+		button { width: 20%; height: 100%; float: left; border: 0px;}
+		#div1 { background: #25fbf3; }
+		#div2 { background: #2599fb; }
+		#div3 { background: #8725fb; }
+		#div4 { background: #fb2599; }
+		#div5 { background: #fb252d; }
+
+	</style>
+<meta charset="UTF-8">
+
+<title>The Swearing Xylophone</title>
+</head>
+
 <body>
-<p style="text-align:center"><IMG SRC="Hello.jpg" ALT="Hello"></p>
-<p style="text-align:center"><a href="https://www.facebook.com/patrick.grant.927"><IMG SRC="Facebook.jpg" ALT="Facebook"></a>
-							 <a href="https://twitter.com/Patrick87"><IMG SRC="twitter.jpg" ALT="Twitter"></a></p>
-<p style="text-align:center"><br><br>I'm hosted with GitHub Pages. © Patrick Grant 2014</p>
+
+	 <audio id="myTune1">
+    	<source src="Beep-02.mp3">
+     </audio>
+     <audio id="myTune2">
+    	<source src="Beep-03.mp3">
+     </audio>
+     <audio id="myTune3">
+    	<source src="Beep-04.mp3">
+     </audio>
+     <audio id="myTune4">
+    	<source src="Beep-05.mp3">
+     </audio>
+     <audio id="myTune5">
+    	<source src="Beep-06.mp3">
+     </audio>
+
+
+		<button id="div1" onclick="document.getElementById('myTune1').play()"></button>
+		<button id="div2" onclick="document.getElementById('myTune2').play()"></button>
+		<button id="div3" onclick="document.getElementById('myTune3').play()"></button>
+		<button id="div4" onclick="document.getElementById('myTune4').play()"></button>
+		<button id="div5" onclick="document.getElementById('myTune5').play()"></button>
+
+
 </body>
+
 </html>
+
